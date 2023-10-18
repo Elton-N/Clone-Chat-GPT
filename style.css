@@ -1,0 +1,78 @@
+@import "./elementos.css";
+
+/*fontes*/
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Rubik', sans-serif;
+}
+
+body{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+/*-------------- Welcome --------------------*/
+section{
+  width: 1432px;
+  height: 732px;
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--darkMiddle);
+  
+}
+
+.welcomeCard{
+  width: 320px;
+  height: 170px;
+ }
+
+.welcomeLogotipo{
+  width: 39px;
+  height: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 27px auto;
+}
+.welcomeTexto{
+  font-family: 'Inter', sans-serif;
+  color: var(--white);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 27px auto;
+  text-align: center;
+  line-height: 30px;
+}
+.welcomeButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -10px;
+}
+
+.button{
+  width: 66px;
+  height: 38px;
+  border-radius: 4px;
+  background-color: var(--greenAcenture);
+  border: none;
+  margin-left: 10px;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.button:hover{
+  
+  background-color: var(--darkGray);
+  color: var(--greenLight);
+}

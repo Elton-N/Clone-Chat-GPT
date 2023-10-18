@@ -1,0 +1,44 @@
+@import "../elementos.css";
+
+/*fontes*/
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+  
+  
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Inter', sans-serif;
+}
+body{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+section{
+    width: 1432px;
+    height: 732px;
+    margin-top: 100px;
+    background-color: red;
+    display: flex;
+}
+aside{
+    width: 261px;
+    height: 732px;
+    background-color: var(--darkGray);
+    padding: 8px;
+}
+article{
+    width: 1171px;
+    height: 732px;
+    background-color: var(--darkMiddle);
+}
+.newChatButton{
+    width: 244px;
+    height: 45px;
+    border-radius: 6px;
+    border: 1px solid #444654;
+    background-color:var(--darkGray); 
+}
